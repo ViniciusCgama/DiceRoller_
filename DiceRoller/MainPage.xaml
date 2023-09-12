@@ -7,6 +7,7 @@
         <VerticalStackLayout
             Spacing="25"
             Padding="30,0">
+            <Image Source="d6.jpg" WidthRequest="100" HeightRequest="150"/>
             <Label Text="Rolador de Dados" HorizontalOptions="Center" FontSize="48" ></Label>
             <Label Text="0" x:Name="NumeroSorteado" HorizontalOptions="Center" FontSize="42"></Label>
             <Picker x:Name="SeletorDeLadosDoDado" HorizontalOptions="Center" >
@@ -23,7 +24,9 @@
             <Button x:Name="SorteadorDeNumeroDoDado"
                     Text="Rolar o dado"
                     HorizontalOptions="Center"
-                    Clicked="SortearNumeroAleatorio"></Button>
+                    Clicked="SortearNumeroAleatorio"
+                    BackgroundColor="Grey"
+                    ></Button>
         </VerticalStackLayout>
     </ScrollView>
 

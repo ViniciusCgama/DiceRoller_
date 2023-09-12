@@ -13,7 +13,7 @@ public partial class MainPage : ContentPage
     private void SortearNumeroAleatorio(object sender, EventArgs e)
     {
         var maxValue = SeletorDeLadosDoDado.SelectedItem;
-        var numeroSorteado = new Random().Next(1, (int)maxValue);
+        var numeroSorteado = new Random().Next(1, (int)maxValue + 1);
 
         NumeroSorteado.Text = numeroSorteado.ToString();
     }
